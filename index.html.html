@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dimple & Shubham | Happy Anniversary ❤️</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #26000e;
+  color: #fff4e6;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(38,0,14,.78),rgba(38,0,14,.92)),
+    radial-gradient(circle at center,#a52b50,#26000e 75%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  position: relative;
+}
+
+.eyebrow {
+  color: #e8c47a;
+  letter-spacing: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(65px,12vw,115px);
+  color: #f4d28b;
+  font-weight: normal;
+  margin: 20px 0 5px;
+  text-shadow: 0 0 30px #d69c50;
+}
+
+.names {
+  font-family: 'Cormorant Garamond',serif;
+  font-size: clamp(35px,7vw,65px);
+  letter-spacing: 3px;
+}
+
+.amp {
+  color: #e8bd6c;
+  font-family: 'Great Vibes',cursive;
+  font-size: 55px;
+}
+
+.heart {
+  font-size: 45px;
+  animation: beat 1.2s infinite;
+  margin: 20px;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.25); }
+}
+
+.hero p {
+  color: #f4d9d0;
+  margin: 12px 0;
+  line-height: 1.8;
+}
+
+.gold-line {
+  width: 130px;
+  height: 1px;
+  background: #d6aa61;
+  margin: 22px auto;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg,#f4d28b,#b57b32);
+  color: #360017;
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 22px;
+  transition: .3s;
+}
+
+.btn:hover { transform: translateY(-4px); }
+
+.section {
+  padding: 85px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-family: 'Great Vibes',cursive;
+  font-size: 58px;
+  color: #f4d28b;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.section p {
+  max-width: 720px;
+  margin: auto;
+  line-height: 2;
+  color: #f7dfe5;
+  font-size: 16px;
+}
+
+.message {
+  background: linear-gradient(145deg,#5b102a,#310015);
+  border: 1px solid #b88948;
+  border-radius: 25px;
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 40px 25px;
+  box-shadow: 0 10px 40px #0005;
+}
+
+.message h3 {
+  font-family: 'Great Vibes',cursive;
+  color: #f4d28b;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 35px;
+}
+
+.gallery img {
+  width: min(280px,85vw);
+  height: 350px;
+  object-fit: cover;
+  border: 3px solid #c99b56;
+  border-radius: 18px;
+  transition: .4s;
+}
+
+.gallery img:hover { transform: scale(1.04); }
+
+.photo-placeholder {
+  width: min(280px,85vw);
+  height: 350px;
+  border: 2px dashed #c99b56;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #e9c47c;
+  background: #ffffff08;
+}
+
+.date-box {
+  border: 1px solid #c99b56;
+  padding: 30px;
+  max-width: 550px;
+  margin: 30px auto;
+  border-radius: 20px;
+  background: #ffffff08;
+}
+
+.date {
+  font-family: 'Cormorant Garamond',serif;
+  font-size: 50px;
+  color: #f4d28b;
+}
+
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  color: #e9c47c;
+  background: #160009;
+}
+
+.floating {
+  position: fixed;
+  bottom: -40px;
+  pointer-events: none;
+  z-index: 10;
+  animation: rise 8s linear forwards;
+}
+
+@keyframes rise {
+  to {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+#surprise {
+  display: none;
+  padding: 25px;
+  color: #f4d28b;
+  font-family: 'Great Vibes',cursive;
+  font-size: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <div class="eyebrow">A Celebration of Love & Togetherness</div>
+
+  <div class="heart">❤️</div>
+
+  <h1>Happy Anniversary</h1>
+
+  <div class="names">
+    Dimple <span class="amp">&</span> Shubham
+  </div>
+
+  <div class="gold-line"></div>
+
+  <p>
+    Two Beautiful Souls, One Endless Love Story
+    <br>
+    Celebrating Your Special Day
+  </p>
+
+  <div class="date">22 November 2026</div>
+
+  <button class="btn" onclick="openSurprise()">
+    Open Your Special Surprise 💌
+  </button>
+
+  <div id="surprise">
+    Forever Yours, Forever Together! ❤️
+  </div>
+</header>
+
+<!-- LOVE MESSAGE -->
+<section class="section">
+  <h2>A Beautiful Love Story</h2>
+
+  <div class="message">
+    <h3>Dear Dimple Di & Shubham Jiju ❤️</h3>
+
+    <p>
+      Some relationships are written in the stars,
+      and yours is one of the most beautiful stories
+      of love, trust and togetherness.
+      <br><br>
+
+      May every sunrise bring you new happiness,
+      every sunset bring peaceful memories,
+      and every passing year make your bond
+      even stronger.
+      <br><br>
+
+      Keep smiling, keep loving and keep making
+      beautiful memories together.
+      <br><br>
+
+      You both deserve a lifetime filled with
+      endless love, laughter and blessings.
+      <br><br>
+
+      With lots of love and warm wishes! ❤️
+    </p>
+  </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="section" style="background:#350016; padding:85px 20px; text-align:center;">
+
+  <h2 style="font-family:'Great Vibes',cursive; font-size:58px; color:#f4d28b; margin-bottom:20px;">
+    Our Beautiful Memories
+  </h2>
+
+  <p style="color:#f7dfe5; margin-bottom:35px;">
+    Every picture tells a story of love ❤️
+  </p>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:22px;">
+
+    <img src="./image1.jpeg"
+      style="width:280px; height:350px; object-fit:cover; border:3px solid #c99b56; border-radius:18px; box-shadow:0 8px 25px #0005;"
+      alt="Dimple and Shubham">
+
+    <img src="./image2.jpeg"
+      style="width:280px; height:350px; object-fit:cover; border:3px solid #c99b56; border-radius:18px; box-shadow:0 8px 25px #0005;"
+      alt="Dimple and Shubham">
+
+    <img src="./image3.jpeg"
+      style="width:280px; height:350px; object-fit:cover; border:3px solid #c99b56; border-radius:18px; box-shadow:0 8px 25px #0005;"
+      alt="Dimple and Shubham">
+
+  </div>
+</section>
+
+<!-- ANNIVERSARY DATE -->
+<section class="section">
+  <h2>A Day To Remember</h2>
+
+  <div class="date-box">
+    <div class="eyebrow">Save This Beautiful Date</div>
+
+    <div class="date">22.11.2026</div>
+
+    <div class="gold-line"></div>
+
+    <p>
+      Another year of love, another year of memories,
+      and forever to go! 💕
+    </p>
+  </div>
+</section>
+
+<!-- FINAL WISH -->
+<section class="section" style="background:#350016;">
+  <div class="heart">💖</div>
+
+  <h2>Forever & Always</h2>
+
+  <p>
+    May your love story never have an ending.
+    <br>
+    May you always be each other's favourite person.
+    <br><br>
+    Happy Anniversary Dimple Di & Shubham Jiju!
+    <br>
+    Lots of Love ❤️
+  </p>
+</section>
+
+<footer>
+  Made With ❤️ By Your Loving Family
+  <br><br>
+  Dimple & Shubham | 22.11.2026
+</footer>
+
+<script>
+function openSurprise() {
+  const box = document.getElementById("surprise");
+  box.style.display = "block";
+  box.scrollIntoView({behavior:"smooth",block:"center"});
+}
+
+function createHeart() {
+  const heart = document.createElement("div");
+  heart.className = "floating";
+  heart.innerHTML = ["❤️","💖","💕","🌹","✨"][
+    Math.floor(Math.random()*5)
+  ];
+
+  heart.style.left = Math.random()*100+"vw";
+  heart.style.fontSize = (18+Math.random()*25)+"px";
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => heart.remove(),8000);
+}
+
+setInterval(createHeart,600);
+</script>
+
+</body>
+</html>
